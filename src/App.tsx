@@ -1,20 +1,18 @@
-import React from "react";
-import logo from "./logo.svg";
 import "./App.css";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <form action="">
-          <label htmlFor="">
+        <form>
+          <label>
             Login
-            <input type="text" />
+            <input type="text" name="login" />
           </label>
           <br />
-          <label htmlFor="">
+          <label>
             Password
-            <input type="text" />
+            <input type="text" name="password" />
           </label>
           <br />
           <button type="submit">Log in</button>
